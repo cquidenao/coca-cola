@@ -10,6 +10,7 @@ body {
 
 a {
     display: inline-block;
+    text-decoration: none;
 }
 
 p {
@@ -40,6 +41,53 @@ header .container nav a {
     color: red;
     text-decoration: none;
     margin: 0 15px;
+}
+
+footer.seccion{
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+}
+
+footer .barra-footer{
+    background-color: gray;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .logo-footer{
+    width: 100%;
+}
+
+footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer a{
+    color: white;
+}
+
+footer .redes{
+    font-size: 30px;
+    display: flex;
+    
+}
+
+footer .redes a{
+    margin: 0 7.5px;
 }
 
 .boton{
@@ -122,6 +170,10 @@ header .container nav a {
 .columna{
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.columna-25{
+    width: 25%;
 }
 
 .columna-33{
